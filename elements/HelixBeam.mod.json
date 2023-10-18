@@ -1,0 +1,45 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "helix_beam",
+    "customModelName": "Normal",
+    "name": "Helix Beam",
+    "specialInfo": [
+      "You're not supposed to see this..."
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.evocation_illager.cast_spell"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 4.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:HelixBeam"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "HelixBeamEffect"
+    },
+    "onBulletFlyingTick": {
+      "name": "HelixBeamParticles"
+    }
+  }
+}

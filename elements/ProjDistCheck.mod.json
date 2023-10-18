@@ -1,0 +1,9 @@
+{
+  "_fv": 39,
+  "_type": "function",
+  "definition": {
+    "code": "execute as @e[type=lucrative_items:projectile_helix_beam] at @s unless entity @a[distance=0..15] run kill @e[type=lucrative_items:projectile_helix_beam, limit=1]",
+    "name": "proj_dist_check",
+    "namespace": "mod"
+  }
+}

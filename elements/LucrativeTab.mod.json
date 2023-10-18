@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Lucrative Items",
+    "icon": {
+      "value": "Items.DIAMOND_SWORD"
+    },
+    "showSearch": false
+  }
+}

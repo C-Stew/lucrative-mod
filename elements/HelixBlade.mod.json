@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "helix_blade",
+    "customModelName": "Normal",
+    "name": "Helix Blade",
+    "specialInfo": [
+      "Right Click Ability:",
+      "When at or below 33% health, fire a projectile dealing 20 damage."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:LucrativeTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.35,
+    "enchantability": 0,
+    "damageVsEntity": 14.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "HelixBladeMakeItemGlow"
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "HelixBladeProjectile"
+    }
+  }
+}

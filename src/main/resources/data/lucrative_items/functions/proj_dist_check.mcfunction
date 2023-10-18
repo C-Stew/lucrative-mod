@@ -1,0 +1,1 @@
+execute as @e[type=lucrative_items:projectile_helix_beam] at @s unless entity @a[distance=0..15] run kill @e[type=lucrative_items:projectile_helix_beam, limit=1]

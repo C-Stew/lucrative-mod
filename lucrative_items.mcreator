@@ -1,0 +1,188 @@
+{
+  "mod_elements": [
+    {
+      "name": "HelixBladeProjectile",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helix_blade_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lucrativeitems/procedures/HelixBladeProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HelixBlade",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "helix_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lucrativeitems/item/HelixBladeItem.java",
+          "src/main/resources/assets/lucrative_items/models/item/helix_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "HelixBladeMakeItemGlow",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helix_blade_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/lucrativeitems/procedures/HelixBladeMakeItemGlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HelixBeam",
+      "type": "rangeditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "helix_beam",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lucrativeweapons/entity/HelixBeamEntity.java",
+          "src/main/java/net/mcreator/lucrativeweapons/item/HelixBeamItem.java",
+          "src/main/resources/assets/lucrative_weapons/models/item/helix_beam.json"
+        ]
+      }
+    },
+    {
+      "name": "HelixBeamEffect",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helix_beam_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lucrativeitems/procedures/HelixBeamEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProjDistCheck",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proj_dist_check",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lucrative_items/functions/proj_dist_check.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "HelixBeamParticles",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helix_beam_particles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lucrativeitems/procedures/HelixBeamParticlesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LucrativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucrative_tab",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "death.attack.helix_beam.player": "%1$s was killed by %2$s\u0027s sword beam",
+      "item.lucrative_items.helix_beam": "Helix Beam",
+      "itemGroup.tablucrative_tab": "Lucrative Items",
+      "item.lucrative_items.helix_blade": "Helix Blade",
+      "death.attack.helix_beam": "%1$s was killed by a sword beam"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lucrative_items",
+    "modName": "Lucrative",
+    "version": "0.1.0",
+    "description": "Adds custom items, recipes, and more for use in the Lucrative Modpack",
+    "author": "C Stew, made with MCreator",
+    "websiteURL": "https://www.curseforge.com/minecraft/modpacks/lucrative",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "helix_blade_icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.lucrativeitems",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

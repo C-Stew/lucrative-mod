@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="lucrative_items"
+version="0.1.0"
+displayName="Lucrative"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.curseforge.com/minecraft/modpacks/lucrative"
+logoFile="logo.png"
+authors="C Stew, made with MCreator"
+description='''
+Adds custom items, recipes, and more for use in the Lucrative Modpack
+'''
+
+[[dependencies.lucrative_items]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
