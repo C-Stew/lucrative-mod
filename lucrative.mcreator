@@ -156,6 +156,20 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "GetHelixBlade",
+      "type": "function",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_helix_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lucrative/functions/get_helix_blade.mcfunction"
+        ]
+      },
+      "path": "~/Items/Helix Blade"
     }
   ],
   "variable_elements": [],

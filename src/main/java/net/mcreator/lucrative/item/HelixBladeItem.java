@@ -11,6 +11,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionResultHolder;
@@ -51,7 +52,7 @@ public class HelixBladeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.65f, new Item.Properties().tab(LucrativeModTabs.TAB_LUCRATIVE_TAB).fireResistant());
+		}, 3, -2.65f, new Item.Properties().tab(LucrativeModTabs.TAB_LUCRATIVE_TAB).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override

@@ -1,0 +1,9 @@
+{
+  "_fv": 39,
+  "_type": "function",
+  "definition": {
+    "code": "give @p lucrative:helix_blade{display:{Name:'[{\"text\":\"Helix Blade\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"★ Lucrative Custom Item ★\",\"color\":\"gold\"},{\"text\":\"\",\"color\":\"dark_purple\",\"italic\":false}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"On Right Click:\",\"italic\":false,\"color\":\"green\",\"bold\":true},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":false}]','[{\"text\":\"When the wielder is below 33% health,\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"fire a short-range beam that deals\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"20 damage, bypassing projectile immunity.\",\"italic\":false,\"color\":\"white\"}]']}} 1",
+    "name": "get_helix_blade",
+    "namespace": "mod"
+  }
+}
