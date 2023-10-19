@@ -26,7 +26,7 @@
           }
         ]
       },
-      "path": "~/Items/Helix Blade"
+      "path": "~/Items/Helix Blade/Helix Blade"
     },
     {
       "name": "HelixBlade",
@@ -41,7 +41,7 @@
           "src/main/resources/assets/lucrative_items/models/item/helix_blade.json"
         ]
       },
-      "path": "~/Items/Helix Blade"
+      "path": "~/Items/Helix Blade/Helix Blade"
     },
     {
       "name": "HelixBladeMakeItemGlow",
@@ -62,7 +62,7 @@
           }
         ]
       },
-      "path": "~/Items/Helix Blade"
+      "path": "~/Items/Helix Blade/Helix Blade"
     },
     {
       "name": "HelixBeam",
@@ -78,7 +78,7 @@
           "src/main/resources/assets/lucrative_weapons/models/item/helix_beam.json"
         ]
       },
-      "path": "~/Items/Helix Blade"
+      "path": "~/Items/Helix Blade/Helix Beam"
     },
     {
       "name": "HelixBeamEffect",
@@ -98,7 +98,7 @@
           }
         ]
       },
-      "path": "~/Items/Helix Blade"
+      "path": "~/Items/Helix Blade/Helix Beam"
     },
     {
       "name": "ProjDistCheck",
@@ -112,7 +112,7 @@
           "src/main/resources/data/lucrative/functions/proj_dist_check.mcfunction"
         ]
       },
-      "path": "~/Items/Helix Blade"
+      "path": "~/Items/Helix Blade/Helix Beam"
     },
     {
       "name": "HelixBeamParticles",
@@ -144,7 +144,7 @@
           }
         ]
       },
-      "path": "~/Items/Helix Blade"
+      "path": "~/Items/Helix Blade/Helix Beam"
     },
     {
       "name": "LucrativeTab",
@@ -177,7 +177,16 @@
         "children": [
           {
             "name": "Helix Blade",
-            "children": []
+            "children": [
+              {
+                "name": "Helix Blade",
+                "children": []
+              },
+              {
+                "name": "Helix Beam",
+                "children": []
+              }
+            ]
           }
         ]
       }
