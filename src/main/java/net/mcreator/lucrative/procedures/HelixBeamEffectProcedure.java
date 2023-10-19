@@ -1,4 +1,4 @@
-package net.mcreator.lucrativeitems.procedures;
+package net.mcreator.lucrative.procedures;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;

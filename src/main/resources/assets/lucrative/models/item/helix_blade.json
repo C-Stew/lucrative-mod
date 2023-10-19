@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "lucrative_items:item/helix_blade"
+		"layer0": "lucrative:item/helix_blade"
 	},
 	"display": {
 		"thirdperson_righthand": {

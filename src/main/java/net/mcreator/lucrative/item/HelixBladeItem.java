@@ -1,5 +1,5 @@
 
-package net.mcreator.lucrativeitems.item;
+package net.mcreator.lucrative.item;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -19,9 +19,9 @@ import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.lucrativeitems.procedures.HelixBladeProjectileProcedure;
-import net.mcreator.lucrativeitems.procedures.HelixBladeMakeItemGlowProcedure;
-import net.mcreator.lucrativeitems.init.LucrativeItemsModTabs;
+import net.mcreator.lucrative.procedures.HelixBladeProjectileProcedure;
+import net.mcreator.lucrative.procedures.HelixBladeMakeItemGlowProcedure;
+import net.mcreator.lucrative.init.LucrativeModTabs;
 
 import java.util.List;
 
@@ -51,7 +51,7 @@ public class HelixBladeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.65f, new Item.Properties().tab(LucrativeItemsModTabs.TAB_LUCRATIVE_TAB).fireResistant());
+		}, 3, -2.65f, new Item.Properties().tab(LucrativeModTabs.TAB_LUCRATIVE_TAB).fireResistant());
 	}
 
 	@Override
@@ -59,14 +59,6 @@ public class HelixBladeItem extends SwordItem {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
 		HelixBladeProjectileProcedure.execute(world, entity, ar.getObject());
 		return ar;
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent(""));
-		list.add(new TextComponent("Right Click Ability:"));
-		list.add(new TextComponent("When at or below 33% health, fire a projectile dealing 20 damage, bypassing projectile immunity."));
 	}
 
 	@Override

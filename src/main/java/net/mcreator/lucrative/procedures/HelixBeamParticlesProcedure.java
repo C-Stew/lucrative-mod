@@ -1,4 +1,4 @@
-package net.mcreator.lucrativeitems.procedures;
+package net.mcreator.lucrative.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.server.level.ServerLevel;

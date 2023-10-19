@@ -1,0 +1,7 @@
+{
+  "item.lucrative.helix_blade": "Helix Blade",
+  "death.attack.helix_beam.player": "%1$s was killed by %2$s\u0027s sword beam",
+  "itemGroup.tablucrative_tab": "Lucrative Items",
+  "death.attack.helix_beam": "%1$s was killed by a sword beam",
+  "item.lucrative.helix_beam": "Helix Beam"
+}

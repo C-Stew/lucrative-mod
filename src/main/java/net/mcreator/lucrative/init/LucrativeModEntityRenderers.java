@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.lucrativeitems.init;
+package net.mcreator.lucrative.init;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -12,9 +12,9 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-public class LucrativeItemsModEntityRenderers {
+public class LucrativeModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(LucrativeItemsModEntities.HELIX_BEAM.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(LucrativeModEntities.HELIX_BEAM.get(), ThrownItemRenderer::new);
 	}
 }

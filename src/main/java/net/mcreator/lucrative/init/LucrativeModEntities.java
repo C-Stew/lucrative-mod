@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.lucrativeitems.init;
+package net.mcreator.lucrative.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,12 +16,12 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.lucrativeitems.entity.HelixBeamEntity;
-import net.mcreator.lucrativeitems.LucrativeItemsMod;
+import net.mcreator.lucrative.entity.HelixBeamEntity;
+import net.mcreator.lucrative.LucrativeMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class LucrativeItemsModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, LucrativeItemsMod.MODID);
+public class LucrativeModEntities {
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, LucrativeMod.MODID);
 	public static final RegistryObject<EntityType<HelixBeamEntity>> HELIX_BEAM = register("projectile_helix_beam",
 			EntityType.Builder.<HelixBeamEntity>of(HelixBeamEntity::new, MobCategory.MISC).setCustomClientFactory(HelixBeamEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 

@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.lucrativeitems;
+package net.mcreator.lucrative;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -26,28 +26,28 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.lucrativeitems.init.LucrativeItemsModTabs;
-import net.mcreator.lucrativeitems.init.LucrativeItemsModItems;
-import net.mcreator.lucrativeitems.init.LucrativeItemsModEntities;
+import net.mcreator.lucrative.init.LucrativeModTabs;
+import net.mcreator.lucrative.init.LucrativeModItems;
+import net.mcreator.lucrative.init.LucrativeModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
-@Mod("lucrative_items")
-public class LucrativeItemsMod {
-	public static final Logger LOGGER = LogManager.getLogger(LucrativeItemsMod.class);
-	public static final String MODID = "lucrative_items";
+@Mod("lucrative")
+public class LucrativeMod {
+	public static final Logger LOGGER = LogManager.getLogger(LucrativeMod.class);
+	public static final String MODID = "lucrative";
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
 
-	public LucrativeItemsMod() {
-		LucrativeItemsModTabs.load();
+	public LucrativeMod() {
+		LucrativeModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		LucrativeItemsModItems.REGISTRY.register(bus);
-		LucrativeItemsModEntities.REGISTRY.register(bus);
+		LucrativeModItems.REGISTRY.register(bus);
+		LucrativeModEntities.REGISTRY.register(bus);
 
 	}
 

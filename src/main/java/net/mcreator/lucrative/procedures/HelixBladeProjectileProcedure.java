@@ -1,4 +1,4 @@
-package net.mcreator.lucrativeitems.procedures;
+package net.mcreator.lucrative.procedures;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
@@ -15,8 +15,8 @@ import net.minecraft.network.chat.TextComponent;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
-import net.mcreator.lucrativeitems.init.LucrativeItemsModEntities;
-import net.mcreator.lucrativeitems.entity.HelixBeamEntity;
+import net.mcreator.lucrative.init.LucrativeModEntities;
+import net.mcreator.lucrative.entity.HelixBeamEntity;
 
 public class HelixBladeProjectileProcedure {
 	public static void execute(LevelAccessor world, Entity entity, ItemStack itemstack) {
@@ -33,7 +33,7 @@ public class HelixBladeProjectileProcedure {
 				if (!projectileLevel.isClientSide()) {
 					Projectile _entityToSpawn = new Object() {
 						public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
-							AbstractArrow entityToSpawn = new HelixBeamEntity(LucrativeItemsModEntities.HELIX_BEAM.get(), level);
+							AbstractArrow entityToSpawn = new HelixBeamEntity(LucrativeModEntities.HELIX_BEAM.get(), level);
 							entityToSpawn.setOwner(shooter);
 							entityToSpawn.setBaseDamage(damage);
 							entityToSpawn.setKnockback(knockback);

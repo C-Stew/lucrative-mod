@@ -1,5 +1,5 @@
 
-package net.mcreator.lucrativeitems.item;
+package net.mcreator.lucrative.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
@@ -16,7 +16,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.lucrativeitems.entity.HelixBeamEntity;
+import net.mcreator.lucrative.entity.HelixBeamEntity;
 
 import java.util.List;
 

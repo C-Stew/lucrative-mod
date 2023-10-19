@@ -1,5 +1,5 @@
 
-package net.mcreator.lucrativeitems.entity;
+package net.mcreator.lucrative.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
@@ -18,17 +18,17 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.lucrativeitems.procedures.HelixBeamParticlesProcedure;
-import net.mcreator.lucrativeitems.procedures.HelixBeamEffectProcedure;
-import net.mcreator.lucrativeitems.init.LucrativeItemsModItems;
-import net.mcreator.lucrativeitems.init.LucrativeItemsModEntities;
+import net.mcreator.lucrative.procedures.HelixBeamParticlesProcedure;
+import net.mcreator.lucrative.procedures.HelixBeamEffectProcedure;
+import net.mcreator.lucrative.init.LucrativeModItems;
+import net.mcreator.lucrative.init.LucrativeModEntities;
 
 import java.util.Random;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class HelixBeamEntity extends AbstractArrow implements ItemSupplier {
 	public HelixBeamEntity(PlayMessages.SpawnEntity packet, Level world) {
-		super(LucrativeItemsModEntities.HELIX_BEAM.get(), world);
+		super(LucrativeModEntities.HELIX_BEAM.get(), world);
 	}
 
 	public HelixBeamEntity(EntityType<? extends HelixBeamEntity> type, Level world) {
@@ -51,7 +51,7 @@ public class HelixBeamEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(LucrativeItemsModItems.HELIX_BEAM.get());
+		return new ItemStack(LucrativeModItems.HELIX_BEAM.get());
 	}
 
 	@Override
@@ -80,7 +80,7 @@ public class HelixBeamEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	public static HelixBeamEntity shoot(Level world, LivingEntity entity, Random random, float power, double damage, int knockback) {
-		HelixBeamEntity entityarrow = new HelixBeamEntity(LucrativeItemsModEntities.HELIX_BEAM.get(), entity, world);
+		HelixBeamEntity entityarrow = new HelixBeamEntity(LucrativeModEntities.HELIX_BEAM.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
@@ -92,7 +92,7 @@ public class HelixBeamEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	public static HelixBeamEntity shoot(LivingEntity entity, LivingEntity target) {
-		HelixBeamEntity entityarrow = new HelixBeamEntity(LucrativeItemsModEntities.HELIX_BEAM.get(), entity, entity.level);
+		HelixBeamEntity entityarrow = new HelixBeamEntity(LucrativeModEntities.HELIX_BEAM.get(), entity, entity.level);
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();

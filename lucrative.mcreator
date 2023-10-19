@@ -9,7 +9,7 @@
       "registry_name": "helix_blade_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lucrativeitems/procedures/HelixBladeProjectileProcedure.java"
+          "src/main/java/net/mcreator/lucrative/procedures/HelixBladeProjectileProcedure.java"
         ],
         "dependencies": [
           {
@@ -51,7 +51,7 @@
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/lucrativeitems/procedures/HelixBladeMakeItemGlowProcedure.java"
+          "src/main/java/net/mcreator/lucrative/procedures/HelixBladeMakeItemGlowProcedure.java"
         ],
         "dependencies": [
           {
@@ -85,7 +85,7 @@
       "registry_name": "helix_beam_effect",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lucrativeitems/procedures/HelixBeamEffectProcedure.java"
+          "src/main/java/net/mcreator/lucrative/procedures/HelixBeamEffectProcedure.java"
         ],
         "dependencies": [
           {
@@ -98,12 +98,13 @@
     {
       "name": "ProjDistCheck",
       "type": "function",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proj_dist_check",
       "metadata": {
         "files": [
-          "src/main/resources/data/lucrative_items/functions/proj_dist_check.mcfunction"
+          "src/main/resources/data/lucrative/functions/proj_dist_check.mcfunction"
         ]
       }
     },
@@ -116,7 +117,7 @@
       "registry_name": "helix_beam_particles",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/lucrativeitems/procedures/HelixBeamParticlesProcedure.java"
+          "src/main/java/net/mcreator/lucrative/procedures/HelixBeamParticlesProcedure.java"
         ],
         "dependencies": [
           {
@@ -141,6 +142,7 @@
     {
       "name": "LucrativeTab",
       "type": "tab",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lucrative_tab",
@@ -153,11 +155,11 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.lucrative.helix_blade": "Helix Blade",
       "death.attack.helix_beam.player": "%1$s was killed by %2$s\u0027s sword beam",
-      "item.lucrative_items.helix_beam": "Helix Beam",
       "itemGroup.tablucrative_tab": "Lucrative Items",
-      "item.lucrative_items.helix_blade": "Helix Blade",
-      "death.attack.helix_beam": "%1$s was killed by a sword beam"
+      "death.attack.helix_beam": "%1$s was killed by a sword beam",
+      "item.lucrative.helix_beam": "Helix Beam"
     }
   },
   "foldersRoot": {
@@ -165,11 +167,11 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "lucrative_items",
+    "modid": "lucrative",
     "modName": "Lucrative",
     "version": "0.1.0",
     "description": "Adds custom items, recipes, and more for use in the Lucrative Modpack",
-    "author": "C Stew, made with MCreator",
+    "author": "C Stew, KxttyKxt, made with MCreator",
     "websiteURL": "https://www.curseforge.com/minecraft/modpacks/lucrative",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
@@ -181,7 +183,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.lucrativeitems",
+    "modElementsPackage": "net.mcreator.lucrative",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202300110610
