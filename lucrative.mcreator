@@ -25,7 +25,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Items/Helix Blade"
     },
     {
       "name": "HelixBlade",
@@ -39,7 +40,8 @@
           "src/main/java/net/mcreator/lucrativeitems/item/HelixBladeItem.java",
           "src/main/resources/assets/lucrative_items/models/item/helix_blade.json"
         ]
-      }
+      },
+      "path": "~/Items/Helix Blade"
     },
     {
       "name": "HelixBladeMakeItemGlow",
@@ -59,7 +61,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Items/Helix Blade"
     },
     {
       "name": "HelixBeam",
@@ -74,7 +77,8 @@
           "src/main/java/net/mcreator/lucrativeweapons/item/HelixBeamItem.java",
           "src/main/resources/assets/lucrative_weapons/models/item/helix_beam.json"
         ]
-      }
+      },
+      "path": "~/Items/Helix Blade"
     },
     {
       "name": "HelixBeamEffect",
@@ -93,7 +97,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Items/Helix Blade"
     },
     {
       "name": "ProjDistCheck",
@@ -106,7 +111,8 @@
         "files": [
           "src/main/resources/data/lucrative/functions/proj_dist_check.mcfunction"
         ]
-      }
+      },
+      "path": "~/Items/Helix Blade"
     },
     {
       "name": "HelixBeamParticles",
@@ -137,7 +143,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Items/Helix Blade"
     },
     {
       "name": "LucrativeTab",
@@ -164,7 +171,17 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Helix Blade",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "lucrative",
