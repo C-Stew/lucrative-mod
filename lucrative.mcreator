@@ -209,10 +209,10 @@
   "workspaceSettings": {
     "modid": "lucrative",
     "modName": "Lucrative",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Adds custom items, recipes, and more for use in the Lucrative Modpack",
     "author": "C Stew, KxttyKxt, made with MCreator",
-    "websiteURL": "https://www.curseforge.com/minecraft/modpacks/lucrative",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/lucrative",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
