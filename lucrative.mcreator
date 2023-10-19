@@ -170,6 +170,62 @@
         ]
       },
       "path": "~/Items/Helix Blade"
+    },
+    {
+      "name": "ChainmailHelmet",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lucrative/recipes/chainmail_helmet.json"
+        ]
+      },
+      "path": "~/Recipes/minecraft"
+    },
+    {
+      "name": "ChainmailChestplate",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lucrative/recipes/chainmail_chestplate.json"
+        ]
+      },
+      "path": "~/Recipes/minecraft"
+    },
+    {
+      "name": "ChainmailLeggings",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lucrative/recipes/chainmail_leggings.json"
+        ]
+      },
+      "path": "~/Recipes/minecraft"
+    },
+    {
+      "name": "ChainmailBoots",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lucrative/recipes/chainmail_boots.json"
+        ]
+      },
+      "path": "~/Recipes/minecraft"
     }
   ],
   "variable_elements": [],
@@ -201,6 +257,15 @@
                 "children": []
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "minecraft",
+            "children": []
           }
         ]
       }
