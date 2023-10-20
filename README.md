@@ -5,6 +5,8 @@
 A remote workspace for the Minecraft mod introducing custom elements to its [namesake modpack](https://www.curseforge.com/minecraft/modpacks/lucrative).
 __This GitHub page is for contributors.__ If you are a user hoping to download the mod, please see the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/lucrative).
 
+Not to be confused with the [Lucrative Modpack](https://github.com/KxttyKxt/Lucrative), the Minecraft modpack for which this project is intended to provide core features.
+
 ---
 # MCreator
 #### Custom items and related files
