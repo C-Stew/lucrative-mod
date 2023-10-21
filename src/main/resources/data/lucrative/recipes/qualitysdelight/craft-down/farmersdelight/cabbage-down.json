@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		[
+			{
+				"item": "qualitysdelight:cabbage_iron"
+			},
+			{
+				"item": "qualitysdelight:cabbage_gold"
+			},
+			{
+				"item": "qualitysdelight:cabbage_diamond"
+			}
+		]
+	],
+	"result": {
+		"item": "farmersdelight:cabbage",
+		"count": 1
+	}
+}

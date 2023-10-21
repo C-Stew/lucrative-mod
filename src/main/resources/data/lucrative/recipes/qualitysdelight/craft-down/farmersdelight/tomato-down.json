@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		[
+			{
+				"item": "qualitysdelight:tomato_iron"
+			},
+			{
+				"item": "qualitysdelight:tomato_gold"
+			},
+			{
+				"item": "qualitysdelight:tomato_diamond"
+			}
+		]
+	],
+	"result": {
+		"item": "farmersdelight:tomato",
+		"count": 1
+	}
+}

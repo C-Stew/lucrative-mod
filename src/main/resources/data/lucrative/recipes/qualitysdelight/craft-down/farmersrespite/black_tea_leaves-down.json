@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		[
+			{
+				"item": "qualitysdelight:black_tea_leaves_iron"
+			},
+			{
+				"item": "qualitysdelight:black_tea_leaves_gold"
+			},
+			{
+				"item": "qualitysdelight:black_tea_leaves_diamond"
+			}
+		]
+	],
+	"result": {
+		"item": "farmersrespite:black_tea_leaves",
+		"count": 1
+	}
+}

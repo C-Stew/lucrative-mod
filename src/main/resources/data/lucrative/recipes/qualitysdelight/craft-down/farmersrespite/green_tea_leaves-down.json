@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		[
+			{
+				"item": "qualitysdelight:green_tea_leaves_iron"
+			},
+			{
+				"item": "qualitysdelight:green_tea_leaves_gold"
+			},
+			{
+				"item": "qualitysdelight:green_tea_leaves_diamond"
+			}
+		]
+	],
+	"result": {
+		"item": "farmersrespite:green_tea_leaves",
+		"count": 1
+	}
+}

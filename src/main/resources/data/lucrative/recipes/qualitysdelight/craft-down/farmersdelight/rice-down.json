@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		[
+			{
+				"item": "qualitysdelight:rice_iron"
+			},
+			{
+				"item": "qualitysdelight:rice_gold"
+			},
+			{
+				"item": "qualitysdelight:rice_diamond"
+			}
+		]
+	],
+	"result": {
+		"item": "farmersdelight:rice",
+		"count": 1
+	}
+}

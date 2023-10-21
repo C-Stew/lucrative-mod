@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		[
+			{
+				"item": "qualitysdelight:onion_iron"
+			},
+			{
+				"item": "qualitysdelight:onion_gold"
+			},
+			{
+				"item": "qualitysdelight:onion_diamond"
+			}
+		]
+	],
+	"result": {
+		"item": "farmersdelight:onion",
+		"count": 1
+	}
+}

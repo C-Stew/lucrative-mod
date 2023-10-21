@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		[
+			{
+				"item": "qualitysdelight:coffee_beans_iron"
+			},
+			{
+				"item": "qualitysdelight:coffee_beans_gold"
+			},
+			{
+				"item": "qualitysdelight:coffee_beans_diamond"
+			}
+		]
+	],
+	"result": {
+		"item": "farmersrespite:coffee_beans",
+		"count": 1
+	}
+}
